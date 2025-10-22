@@ -1,0 +1,317 @@
+<!doctype html>
+
+<html lang="hi">
+
+<head>
+
+  <meta charset="utf-8" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Work From Home Writing Job — Registration</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700;800&display=swap" rel="stylesheet">
+
+  <!-- Meta Pixel Code -->
+
+  <script>
+
+    !function(f,b,e,v,n,t,s)
+
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+
+    n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;
+
+    s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}
+
+    (window, document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+    fbq('init', '2097520560772454');
+
+    fbq('track', 'PageView');
+
+  </script>
+
+  <noscript><img height="1" width="1" style="display:none"
+
+    src="https://www.facebook.com/tr?id=2097520560772454&ev=PageView&noscript=1"
+
+  /></noscript>
+
+  <!-- End Meta Pixel Code -->
+
+  <style>
+
+    /* Your existing CSS unchanged */
+
+    :root{
+
+      --bg:#f6f7fb;
+
+      --card:#ffffff;
+
+      --accent:#0b8457;
+
+      --muted:#7b7f86;
+
+      --input:#f1f3f6;
+
+      font-family: 'Poppins',sans-serif;
+
+    }
+
+    html,body{height:100%;margin:0;background:linear-gradient(180deg,#0b8457 0%,#23b87a 100%);}
+
+    .wrap{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:20px;}
+
+    .card{width:100%;max-width:440px;background:var(--card);border-radius:20px;box-shadow:0 10px 35px rgba(0,0,0,0.15);overflow:hidden;border: 2px solid #fff;}
+
+    .header{text-align:center;padding:30px 10px 20px;background:linear-gradient(135deg,#0b8457,#23b87a);}
+
+    .headline{font-weight:800;font-size:30px;color:#fff;letter-spacing:1px;}
+
+    .subtext{font-weight:800;font-size:22px;color:#fff;letter-spacing:0.8px;margin-top:4px;}
+
+    form{display:grid;gap:14px;padding:22px;}
+
+    label{font-size:14px;color:#333;font-weight:600}
+
+    input[type="text"],input[type="tel"],select{width:100%;padding:12px 14px;border-radius:12px;border:1px solid #e6e9ee;background:var(--input);font-size:15px;box-sizing:border-box;}
+
+    .plan-group{display:flex;gap:8px;flex-wrap:wrap}
+
+    .plan{flex:1;min-width:110px;padding:10px;border-radius:10px;border:1px solid #e6e9ee;background:#fff;text-align:center;cursor:pointer;user-select:none;transition:all .25s ease;font-size:16px;font-weight:500;}
+
+    .plan input{display:none}
+
+    .plan.active{border-color:var(--accent);box-shadow:0 6px 18px rgba(11,132,87,0.25);transform:scale(1.03);}
+
+    .small{font-size:12px;color:var(--muted)}
+
+    .submit-btn{display:block;width:100%;padding:14px;border-radius:12px;border:0;color:#fff;background:linear-gradient(90deg,var(--accent),#0a6f4f);font-weight:500;font-size:16px;text-transform:none;cursor:pointer;transition:.3s;box-shadow:0 4px 12px rgba(0,0,0,0.1);}
+
+    .submit-btn:hover{opacity:0.9;transform:scale(1.02)}
+
+    .note{margin-top:15px;font-size:13px;color:#444;text-align:center;line-height:1.6}
+
+    .footer{margin:15px 0 10px;text-align:center;font-size:11px;color:#555;}
+
+    @media (max-width:420px){.headline{font-size:26px}.subtext{font-size:20px}form{padding:18px;}}
+
+  </style>
+
+</head>
+
+<body>
+
+  <div class="wrap">
+
+    <div class="card">
+
+      <div class="header">
+
+        <div class="headline">WORK FROM HOME</div>
+
+        <div class="subtext">WRITING JOB</div>
+
+      </div>
+
+      <form id="regForm">
+
+        <div>
+
+          <label for="fullname">Full Name</label>
+
+          <input id="fullname" name="fullname" type="text" placeholder="आपका नाम" required />
+
+        </div>
+
+        <div>
+
+          <label for="mobile">Mobile number</label>
+
+          <input id="mobile" name="mobile" type="tel" inputmode="tel" placeholder="e.g. 91xxxxxxxxxx" required />
+
+        </div>
+
+        <div>
+
+          <label for="state">State</label>
+
+          <input id="state" name="state" type="text" placeholder="State / राज्य" required />
+
+        </div>
+
+        <div>
+
+          <label>Project Plan</label>
+
+          <div class="plan-group" id="plans">
+
+            <label class="plan" data-value="7 Day">
+
+              <input type="radio" name="plan" value="7 Day" />
+
+              <div><strong>7 Day</strong></div>
+
+              <div class="small">Short term</div>
+
+            </label>
+
+            <label class="plan" data-value="10 Day">
+
+              <input type="radio" name="plan" value="10 Day" />
+
+              <div><strong>10 Day</strong></div>
+
+              <div class="small">Short +</div>
+
+            </label>
+
+            <label class="plan" data-value="15 Day">
+
+              <input type="radio" name="plan" value="15 Day" />
+
+              <div><strong>15 Day</strong></div>
+
+              <div class="small">Popular</div>
+
+            </label>
+
+            <label class="plan" data-value="26 Day">
+
+              <input type="radio" name="plan" value="26 Day" />
+
+              <div><strong>26 Day</strong></div>
+
+              <div class="small">Long term</div>
+
+            </label>
+
+          </div>
+
+        </div>
+
+        <button class="submit-btn" type="submit">Submit Form</button>
+
+        <p class="note">
+
+          आपके फॉर्म का डेटा हमारे WhatsApp पर भेजा जाएगा — <br>
+
+          Submit Form बटन पर क्लिक करने के बाद। कृपया सभी जानकारी सही भरें।
+
+        </p>
+
+      </form>
+
+      <div class="footer">
+
+        © 2025 Adhikari Website — Trusted & Genuine
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <script>
+
+    // Project Plan selection
+
+    const plans = document.querySelectorAll('.plan');
+
+    plans.forEach(p => {
+
+      p.addEventListener('click', () => {
+
+        plans.forEach(x => x.classList.remove('active'));
+
+        p.classList.add('active');
+
+        p.querySelector('input').checked = true;
+
+      });
+
+    });
+
+    // Phone clean helper
+
+    function cleanPhone(raw) {
+
+      let d = raw.replace(/\D/g, '');
+
+      if (d.length === 10) return '91'+d;
+
+      else if (d.length === 12 && d.startsWith('91')) return d;
+
+      else if (d.length === 13 && d.startsWith('091')) return d.slice(1);
+
+      else return d;
+
+    }
+
+    // Handle Submit with Pixel Event + WhatsApp
+
+    const form = document.getElementById('regForm');
+
+    form.addEventListener('submit', function(e){
+
+      e.preventDefault(); // Prevent page reload
+
+      const full = document.getElementById('fullname').value.trim();
+
+      const mobile = document.getElementById('mobile').value.trim();
+
+      const state = document.getElementById('state').value.trim();
+
+      const plan = document.querySelector('input[name="plan"]:checked');
+
+      if(!full || !mobile || !state || !plan){
+
+        alert('कृपया सभी जानकारी भरें और Project Plan चुनें।');
+
+        return false;
+
+      }
+
+      // Fire Facebook Pixel SubmitForm event
+
+      fbq('track', 'SubmitForm');
+
+      // Prepare WhatsApp message
+
+      const mobileClean = cleanPhone(mobile);
+
+      const message = `👋 I am interested,%0A%0AFull Name: ${encodeURIComponent(full)}%0A` +
+
+                      `Mobile: ${encodeURIComponent(mobileClean)}%0A` +
+
+                      `State: ${encodeURIComponent(state)}%0A` +
+
+                      `Project Plan: ${encodeURIComponent(plan.value)}%0A%0A🔹 कृपया संपर्क करें।`;
+
+      const myNumber = '916378507932';
+
+      const url = `https://wa.me/${myNumber}?text=${message}`;
+
+      window.open(url,'_blank');
+
+      // Optionally reset form
+
+      form.reset();
+
+      plans.forEach(x => x.classList.remove('active'));
+
+      return false;
+
+    });
+
+  </script>
+
+</body>
+
+</html>
